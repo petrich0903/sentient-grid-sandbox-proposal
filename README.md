@@ -85,3 +85,12 @@ def handle_job(user_payload):
     
     # 6. Return the safe result to the user
     return result
+### 3.5. Complementary to the Sentient Enclaves Framework
+
+This proposal is designed to work *with* and *complement* the existing **Sentient Enclaves Framework**.
+
+The current Enclaves framework, which uses AWS Nitro Enclaves, is a powerful solution for high-security, verifiable compute that can run on trusted AWS hardware.
+
+**GRID-Sandbox** complements this by solving a different, equally important problem: **providing a high-speed, lightweight, *decentralized* sandbox** that can run on *any* node operator's machine (not just AWS).
+
+While Enclaves are perfect for large, verifiable tasks, our sandbox is for the millions of everyday, untrusted scripts, functions, and AI models that will make the compute market dynamic and accessible to all builders. It fills the gap for a truly decentralized, on-premise solution.
